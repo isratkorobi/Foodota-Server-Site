@@ -112,7 +112,7 @@ async function run(){
 run().catch(console.dir);
 
 app.get("/", (req, res) => {
-  res.send("");
+  res.send("database running");
 });
 
 app.listen(port, () => {
